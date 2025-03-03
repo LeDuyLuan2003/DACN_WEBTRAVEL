@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-DACN_WEBTRAVEL is a web-based travel application designed to provide users with a seamless experience for planning and booking their travels. The project is built using a combination of HTML, Java, and CSS.
+DACN_WEBTRAVEL is a web-based travel application designed to provide users with a seamless experience for planning and booking their travels. The project is built using Spring Boot for the backend, and HTML, CSS for the frontend.
 
 ## Language Composition
 
@@ -31,11 +31,19 @@ To set up the project locally, follow these steps:
    cd DACN_WEBTRAVEL
    ```
 
-3. Follow the specific setup instructions for your development environment (e.g., setting up a web server, database, etc.)
+3. Build the project using Maven:
+   ```bash
+   mvn clean install
+   ```
+
+4. Run the Spring Boot application:
+   ```bash
+   mvn spring-boot:run
+   ```
 
 ## Usage
 
-- Open the project in your preferred web browser.
+- Open the project in your preferred web browser at `http://localhost:8080`.
 - Explore the various features and functionalities of the application.
 - Customize the project as needed to fit your requirements.
 
